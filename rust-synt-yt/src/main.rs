@@ -12,7 +12,7 @@ fn main() {
   // arrays::arrays();
   // functions::functions();
   // iofromusers::inputfromuser();
-  // vectors::vectors();
+  vectors::vectors();
   errors::errors();
   // Переменные
 // integer -1,4,-11,7...   i8 i16 i32 i64 i128 isize(= i64 в моем случае)
