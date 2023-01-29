@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::ErrorKind;
 // стандартная библиотека для работы с файлами
 
-pub fn errors() {
+fn errors() {
     // пытаемся открыть файл
     let file = File::open("index.html");
 

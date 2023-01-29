@@ -5,6 +5,7 @@ mod iofromusers;
 mod vectors;
 mod errors;
 
+mod mainmain;
 // неизменяемые, всегда нужно прописывать тип, можно объявлять за пределами главной функции
 const _CHILDREN: i32 = 6; 
 fn main() {
@@ -12,8 +13,9 @@ fn main() {
   // arrays::arrays();
   // functions::functions();
   // iofromusers::inputfromuser();
-  vectors::vectors();
-  errors::errors();
+  // vectors::vectors();
+  // errors::errors();
+  mainmain::main();
   // Переменные
 // integer -1,4,-11,7...   i8 i16 i32 i64 i128 isize(= i64 в моем случае)
 // float 5.73, 3.9...      f8 f16 f32 f64 f128 fsize

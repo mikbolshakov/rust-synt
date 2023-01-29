@@ -3,7 +3,7 @@ struct Rectangle {
   h : i32
 }
 
-pub fn functions() {
+fn functions() {
     sum(4, 6);
     let square: i8 = square1(4);
     println!("{}", square);
