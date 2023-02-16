@@ -13,9 +13,9 @@ enum Cmd {
 }
 
 struct Color {
-  r : i32,
-  g : i32,
-  b : i32
+  red: i32,
+  green: i32,
+  blue: i32
 }
 
 fn enums() {
@@ -25,12 +25,12 @@ fn enums() {
   let cmdName = Cmd::WriteText("Just text".to_string());
   match cmdName {
     Cmd::WriteText(message) => println!("message {}", message),
-    Cmd::ChangeColor(color) => println!("{} {} {}", color.r, color.g, color.b),
+    Cmd::ChangeColor(color) => println!("{} {} {}", color.red, color.green, color.blue),
     Cmd::Quit => println!("Quit")
   }
 }
 
-fn calc(breakfast : Lavka, x : i32, y : i32) -> i32 {
+fn calc(breakfast: Lavka, x: i32, y: i32) -> i32 {
   match breakfast {
     Lavka::Order => x * y,
     Lavka::Payed => x + y,

@@ -1,5 +1,3 @@
-// вектор - аналог динамического массива
-
 fn vectors() {
   let mut list = vec![1, 2, 3];
   list.push(4);

@@ -1,7 +1,6 @@
-use std::collections::HashMap;
-// необходимый импорт для работы с хэшмэпами
+use std::collections::HashMap; // необходимый импорт для работы с хэшмэпами
 
-// хэшмэпы - в них хранятся данные ключ: значение
+// хэшмэпы - хранение данных ключ: значение
 fn hashmaps() {
   let mut map = HashMap::new();
 
@@ -10,6 +9,4 @@ fn hashmaps() {
   map.insert("Mike".to_string(), 13);
   println!("{:?}", map);
   println!("{}", map["Denis"]);
-
-
 }

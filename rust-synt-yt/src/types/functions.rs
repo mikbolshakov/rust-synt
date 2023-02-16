@@ -1,6 +1,6 @@
 struct Rectangle {
-  w : i32,
-  h : i32
+  weight: i32,
+  height: i32
 }
 
 fn functions() {
@@ -24,14 +24,14 @@ fn functions() {
       println!("Анон");
     };
     let area = |side: Rectangle| -> i32 {
-      side.w * side.h
+      side.weight * side.height
     };
-    let sum = |a,b| a+b;
+    let sum = |a: i32, b: i32| a + b;
     sum(4,5);
 
     // вызов функций в функциях
-    fn handler(anon_func : fn(), area : fn()) {
-      let res = true;
+    fn handler(anon_func: fn(), area: fn()) {
+      let res: bool = true;
       if res == true {
         anon_func();
       } else {
